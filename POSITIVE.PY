@@ -1,11 +1,12 @@
 '''AUTHOR:SEBIN PRINCE
 DATE:25/10/24
-DESCRIPTION:Number is positive or not
-
+DESCRIPTION:Print number is positive,negative or zero
 number1=int(input("enter first number:"))
 
-if number1>0:
+if (number1>0):
     print("number is positive")
-else:
+elif (number1<0):
     print("number is negative")
+else:
+    print("number is zero")
 '''
