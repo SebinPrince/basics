@@ -17,7 +17,6 @@ If the user enters an invalid option, display an error message and re-display th
     fahrenheit = (celsius * 9/5) + 32
     celsius = (fahrenheit - 32) * 5/9
 temp_1=int(input("enter the temperature:"))
-'''
 
 while True:
     print("1.\tConvert Celsius to Fahrenheit")
@@ -34,7 +33,7 @@ while True:
         break
     else:
         print("invalid")
-
+'''
 
 
 
