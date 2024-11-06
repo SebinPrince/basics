@@ -27,7 +27,7 @@ while True:
         fahrenheit = (temp_1 * 9 / 5) + 32
         print(fahrenheit)
     elif num_1==2:
-        (celsius) = (temp_1 - 32) * 5 / 9
+        celsius = (temp_1 - 32) * 5 / 9
         print(celsius)
     elif num_1==3:
         break
