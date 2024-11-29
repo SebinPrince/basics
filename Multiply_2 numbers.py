@@ -8,4 +8,4 @@ def multiply(num1,num2):
         return num1+multiply(num1,num2-1)
 num1=int(input("Enter first number:"))
 num2=int(input("Enter second number:"))
-print(multiply(num1,num2))
+print("After multiplication:",multiply(num1,num2))
