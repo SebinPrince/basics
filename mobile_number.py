@@ -10,7 +10,7 @@ def mobile_number(number):
     if len(number)==10 and number[0] in ["7","8","9"]:
         return True
     return False
-mobile=input("enter number:")
+mobile=input("Enter mobile number:")
 if mobile_number(mobile):
     print("valid")
 else:
