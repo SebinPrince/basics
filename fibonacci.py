@@ -6,6 +6,6 @@ def  fibonacci_number(num):
     num1=0
     num2=1
     for i in range(num):
-        lst.append(num2)
+        lst.append(num1)
         num1,num2=num2,num1+num2
     return lst
